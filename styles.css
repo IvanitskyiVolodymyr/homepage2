@@ -94,6 +94,14 @@ body {
   .contact-info__block--center {
       justify-content: center;
   }
+  
+  .contact-info__block--right {
+    justify-content: right;
+  }
+
+  .contact-info__block--left {
+    justify-content: left;
+  }
 
   .contact-info__item {
       color: var(--secondary-text-color);
@@ -124,8 +132,8 @@ body {
 
   .contact-info__avatar {
       border-radius: 50%;
-      width: 100px;
-      height: 100px;
+      width: 160px;
+      height: 160px;
       object-fit: cover;
       border: 3px solid;
       border-color: var(--text-decoration-color);
