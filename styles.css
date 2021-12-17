@@ -247,7 +247,7 @@ body {
 }
 
 .additional-info__education-university-speciality {
-    color: var(--primary-text-color);
+    color: var(--secondary-text-color);
     text-align: left;
     margin-bottom: 10px;
 }
@@ -269,3 +269,92 @@ body {
 .additional-info__languages-item {
     color: var(--secondary-text-color);
 }
+
+.experiences__company-project-mb {
+    margin-bottom: 2em; 
+   }
+/* Details as a list item */
+li.details {
+    list-style-type: none;
+  }
+  li.details::before {
+    display: none;
+  }
+  li.details > input {
+    float: left;
+    margin-left: -1.5em;
+  }
+  li.
+  /* Highlighted list item */
+  li.highlighted {
+    padding: 0.5em;
+    background: rgba(0, 0, 0, 0.04);
+    border-radius: 4px;
+  }
+  
+  /* Bordered list item */
+  li.bordered {
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 4px;
+    padding: 0.5em;
+    transition: all 0.2s linear;
+  }
+  li.bordered:hover {
+    background: #fafafa;
+  }
+  li.bordered > ul > li.details > div,
+  li.bordered > ul > details > div {
+    padding: 0.5em 0.5em 0 2em;
+    border-top: 1px solid rgb(224, 224, 224);
+    margin-top: 0.5em;
+    margin-left: -2em;
+    margin-right: -0.5em;
+  }
+
+  /* Native <details> element styling */
+details {
+    display: block;
+  }
+  details > summary::-webkit-details-marker {
+    margin-left: 0.25em;
+    margin-right: 0.25em;
+  }
+  details > summary {
+    display: list-item;
+    cursor: pointer;
+  }
+  details > div {
+    margin-top: 0.5em;
+  }
+  details > div::after {
+    content: " ";
+    clear: both;
+    display: block;
+  }
+
+  /*links*/
+  a { 
+    text-decoration: none; 
+   }
+  a:link {
+    color: #ff9a00;
+  }
+  
+  a:visited {
+    color: #ff9a00;
+  }
+  
+  a:focus {
+    border-bottom: 1px solid;
+    background: #ebe7e2ea;
+  }
+  
+  a:hover {
+    
+    background: #f7e47e9c;
+  }
+  
+  a:active {
+    background: #ff9a0045;
+    color: #ff9a00;
+  }
