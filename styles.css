@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+html{
+    background-size: cover;
+}
 body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
@@ -78,6 +81,7 @@ body {
       margin-bottom: 15px;
       text-decoration-color: var(--text-decoration-color);
       text-decoration-line: underline;
+      z-index: 5;
   }
 
   .contact-info__sub-header {
@@ -418,3 +422,17 @@ details {
     border-radius: 2em;
     transition: all .3s ease-out;
     }
+
+    canvas{
+        z-index: 2;
+    }
+    .text{
+        text-align: center;
+        color:#fff;
+        font-size: 28px;
+        width: 100%;
+        top: 130px;
+        position: absolute;
+        margin: 0 auto;
+        display: block;
+       }
