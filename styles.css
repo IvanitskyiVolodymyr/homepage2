@@ -277,6 +277,20 @@ body {
     color: var(--secondary-text-color);
 }
 
+.additional-info__likes {
+    margin-bottom: 20px;
+}
+
+.additional-info__languages-likes {
+    color: var(--secondary-text-color);
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.additional-info__languages-likes {
+    color: var(--secondary-text-color);
+}
+
 .experiences__company-project-mb {
     margin-bottom: 2em; 
    }
